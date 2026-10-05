@@ -1,2 +1,8 @@
 name = "Student"
 print("Git practice:", name)
+def login(username, password):
+    if username == "admin" and password == "1234":
+        return "Access granted"
+    return "Access denied"
+
+print(login("admin", "1234"))
